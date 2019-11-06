@@ -23,31 +23,31 @@ public class Tp3Exo2 {
 			long q;System.out.println("Saisir un Long : ");
 			q =lecture_clavier.nextLong();
 			System.out.println("Long saisi = "+q);
-			
+			// mettre en commentaire la ligne inutile au calcul pour que le calcul passe sur la ligne du dessous
 			float x; System.out.println("saisir un reel: ");
 			x =lecture_clavier.nextFloat();
 			System.out.println("reel saisi: "+x);
-			
-			//long somme_a =  n + q;
-			//System.out.print("la somme des deux valeurs est : "+somme_a);
-			//somme_a= lecture_clavier.nextLong();
-			//System.out.print(n+q);
-			
+			//a
+			long somme_a =  n + q;
+			System.out.print("la somme des deux valeurs est : "+somme_a);
+			somme_a= lecture_clavier.nextLong();
+			System.out.print(n+q);
+			//b
 			float somme_b =  n + x;
 			System.out.print("la somme des deux valeurs est : "+somme_b);
 			somme_b= lecture_clavier.nextFloat();
 			System.out.print(n+x);
-			
+			//c
 			long somme_c =  (n%p)*q;
 			System.out.print("la somme des deux valeurs est : "+somme_c);
 			somme_c= lecture_clavier.nextLong();
 			System.out.print((n%p)*q);
-			
+			//d
 			int somme_d =  n%-p*n;
 			System.out.print("la somme des deux valeurs est : "+somme_d);
 			somme_d= lecture_clavier.nextInt();
 			System.out.print((n%-p)*q);
-			
+			//e
 			int somme_e =  -n%p*n;
 			System.out.print("la somme des deux valeurs est : "+somme_e);
 			somme_e= lecture_clavier.nextInt();
