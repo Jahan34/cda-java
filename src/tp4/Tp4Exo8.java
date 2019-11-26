@@ -17,15 +17,15 @@ public class Tp4Exo8 {
 
 		}
 		System.out.println(Arrays.toString(fibo));
-		for (boolean i = 2; i < fibo.length; i++) {
+		for (int i = 2; i < fibo.length; i++) {
 			nbOr = (float) fibo[i] / fibo[i - 1];
 			System.out.println(nbOr +" "+ i );
 
 			if (nbOr > 1.6179 && nbOr < 1.6181)
-			i = true{
-				System.out.println("il est dans l'intervalle");
-break;
-			}
+			//iif = true{
+			//	System.out.println("il est dans l'intervalle");
+				break;
+		//	}
 			
 	
 				
