@@ -22,7 +22,7 @@ public class Tp4Exo8 {
 			System.out.println(nbOr +" "+ i );
 
 			if (nbOr > 1.6179 && nbOr < 1.6181)
-			//iif = true{
+			//	if = true{
 			//	System.out.println("il est dans l'intervalle");
 				break;
 		//	}
