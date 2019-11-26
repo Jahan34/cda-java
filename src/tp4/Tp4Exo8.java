@@ -17,7 +17,7 @@ public class Tp4Exo8 {
 
 		}
 		System.out.println(Arrays.toString(fibo));
-		for (int i = 2; i < fibo.length; i++) {
+		for (boolean i = 2; i < fibo.length; i++) {
 			nbOr = (float) fibo[i] / fibo[i - 1];
 			System.out.println(nbOr +" "+ i );
 

@@ -10,7 +10,7 @@ public class Tp4Exo2 {
 		float uneNote=0;
 		float sommeNotes=0;
 		while(uneNote>= 0);
-		
+		sc.close();
 
 	}
 
