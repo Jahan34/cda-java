@@ -21,11 +21,15 @@ public class Tp4Exo8 {
 			nbOr = (float) fibo[i] / fibo[i - 1];
 			System.out.println(nbOr +" "+ i );
 
-			if (nbOr > 1.6179 && nbOr < 1.6181) {
+			if (nbOr > 1.6179 && nbOr < 1.6181)
+			i = true{
 				System.out.println("il est dans l'intervalle");
 break;
 			}
-			System.out.println();
+			
+	
+				
+			
 		}
 
 	}
